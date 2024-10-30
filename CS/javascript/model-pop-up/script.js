@@ -1,16 +1,15 @@
-document.addEventListener("DOMContentLoaded", () => {
-     const modal = document.getElementById("myModal");
-     const openbutton = document.getElementById("openModal");
-     const closebutton = document.getElementById("closeModal");
-     openbutton.addEventListener("click", () => {
-        modal.style.display = "block";
-    });
-     closebutton.addEventListener("click", () => {
-        modal.style.display = "none";
-    });
-     window.addEventListener("click", (event) => {
-         if (event.target == modal){
-            modal.style.display = "none";{    
-         }
-     }): 
-}):
+document.addEventListener ("DOMContentLoaded", () => {
+     const form = document.getElementById("myForm");
+     form.addEventListener ('submit', function (event) {
+          event.preventDefault();
+          uname = document.getElementById("name");
+          email = document.getElementById("email");
+          message = document.getElementById("message");
+          if (uname && email && message) {
+               alert(`Form submitted successfully!\nName: ${uname.value}\nEmail: ${email.value}\nMessage: ${message.value}`);
+          }
+          else{
+                alert('Fill all the fields!');
+          }
+     });
+});
