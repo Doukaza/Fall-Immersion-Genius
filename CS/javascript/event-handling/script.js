@@ -1,6 +1,6 @@
 document.getElementById("MyButton").addEventListener("'click', function (){
   essay = document.createElement('img');
-  essay.<img src="" = "img";
+  essay.image = "picture";
   document.body.appendChild(essay);
 
 });
