@@ -1,12 +1,6 @@
-document .addEventListener( "DOMContentLoaded", ( ){
-    const openModal = document. getElementById( "modal" );
-    const closeModal = document .getElementById( "closeModal");
-    
-    openModal.addEventListener("click", () => {
-     modal.style.display = "block";
-    };
-    closeModal.addEventListener("click", () => {
-        modal.style.display = "none"
-    });
-    
-})
+document. getElementById("myButton").addEventListener("'click', function (){
+  paragraph = document. createElement ('p');
+  paragraph. textContent = "text";
+  document. body. appendChild (paragraph);
+
+});
