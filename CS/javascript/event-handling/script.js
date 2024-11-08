@@ -1,6 +1,6 @@
-document.getElementById("myButton").addEventListener("'click', function (){
-  paragraph = document.createElement ('img');
-  paragraph.textContent = "text";
+document.getElementById("MyButton").addEventListener("'click', function (){
+  essay = document.createElement ('img');
+  essay.textContent = "essay";
   document.body.appendChild (paragraph);
 
 });
